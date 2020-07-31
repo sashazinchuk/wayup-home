@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  background: rgb(75,174,195);
+  background: linear-gradient(108deg, #4EBEFE 0%, #378FD9 100%);
+  margin: 0 auto;
+  padding-top: 62px;
+  color: white;
+}
+.logo {
+  max-width: 98px;
+  margin-bottom: 10px;
+}
+.front {
+  display: flex;
+  justify-content: space-between;
+}
+.offer {
+  padding-top: 135px;
+  max-width: 555px
+}
+.main-title {
+  font-size: 37px;
+  margin-bottom: 47px;
+}
+.add {
+  font-size: 42px;
+  font-weight: 700;
+}
+.main-description {
+  max-width: 400px;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 44px;
+}
+.main-link {
+  display: inline-block;
+  background-color: #FFD429;
+  color: black;
+  padding: 23px 26px 21px 29px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.next {
+  padding-top: 90px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.future-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+.future-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-img {
+  margin-bottom: 29px;
+}
+.item-title {
+  margin-bottom: 17px;
+}
+.item-description {
+  text-align: center;
+}
+.send {
+  background-color: #ECF3F8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-input {
+  padding: 17px 150px 17px 26px;
+  margin-bottom: 14px;
+}
+.footer {
+  background-color: #164D7A;
+  padding-top: 63px;
+  padding-bottom: 67px;
+}
+.conf {
+  color: white;
+  text-align: center;
+}
