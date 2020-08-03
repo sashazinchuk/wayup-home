@@ -22,9 +22,9 @@ body {
 .front {
   display: flex;
   justify-content: space-between;
+  align-items: center; 
 }
 .offer {
-  padding-top: 135px;
   max-width: 555px
 }
 .main-title {
@@ -51,6 +51,7 @@ body {
 }
 .next {
   padding-top: 90px;
+  padding-bottom: 110px;
 }
 .section-title {
   text-align: center;
@@ -59,7 +60,7 @@ body {
 .future-items {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 110px;
+  align-items: flex-end;
 }
 .future-item {
   display: flex;
@@ -89,6 +90,10 @@ body {
 .form-input {
   padding: 17px 150px 17px 26px;
   margin-bottom: 14px;
+}
+.btn {
+  border: none;
+  padding: 23px 88px;
 }
 .footer {
   background-color: #164D7A;
