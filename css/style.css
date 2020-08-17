@@ -3,6 +3,7 @@
 }
 body {
   font-family: 'Ubuntu', sans-serif;
+  margin: 0;
 }
 .container {
   max-width: 1200px;
@@ -88,12 +89,14 @@ body {
   align-items: center;
 }
 .form-input {
-  padding: 17px 150px 17px 26px;
+  padding: 17px 26px;
   margin-bottom: 14px;
+  width: 340px;
 }
 .btn {
   border: none;
   padding: 23px 88px;
+  width: 340px;
 }
 .footer {
   background-color: #164D7A;
@@ -103,4 +106,42 @@ body {
 .conf {
   color: white;
   text-align: center;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.front {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.main-description {
+		width: auto;
+	}
+	.main-img {
+		display: block;
+	  width: 549px;
+	  margin: 72px auto 0;
+	}
+	.future-items {
+		flex-direction: column;
+	}
+	.future-item {
+		width: auto;
+		margin-bottom: 30px;
+	}
 }
