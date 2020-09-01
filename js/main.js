@@ -8,6 +8,7 @@
 // 	img.style.display = 'none';
 // 	document.querySelector('.skill-change').style.marginLeft = '50px';
 // }
+new WOW().init();
 
 $(function () {
 	$(window).scroll(function() {
